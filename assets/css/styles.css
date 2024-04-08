@@ -1,9 +1,15 @@
+body {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 50% 50%;
+}
+
 h1 {
     border: 0px solid;
     width: 35rem;
     height: 35rem;
     border-radius: 50%;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(#fbd808, #ff9005);
     display: grid;
     place-items: center;
     font-size: 4rem;
