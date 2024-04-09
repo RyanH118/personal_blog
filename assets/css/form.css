@@ -1,3 +1,29 @@
+input, textarea {
+    width: 35rem;
+}
+
+textarea {
+    height: 3.5rem;
+}
+
 #errorMessage {
-    color: red;
+color: red;
+}
+
+form {
+    margin: 6rem;
+    margin-top: 12rem;
+}
+
+.submit {
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    height: 2.5rem;
+}
+
+h2 {
+    text-align: center;
 }

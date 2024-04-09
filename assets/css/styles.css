@@ -2,16 +2,19 @@ body {
     display: grid;
     gap: 1rem;
     grid-template-columns: 50% 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
     border: 0px solid;
-    width: 35rem;
-    height: 35rem;
+    width: 30rem;
+    height: 30rem;
     border-radius: 50%;
     background-image: linear-gradient(#fbd808, #ff9005);
     display: grid;
     place-items: center;
     font-size: 4rem;
     color: white;
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
