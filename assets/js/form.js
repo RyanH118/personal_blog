@@ -3,13 +3,12 @@ const form = document.getElementById("blogForm");
 // This event listener is waiting for the submit button to be clicked.
 form.addEventListener("submit", function (event) {
     
-    //This gets the content from the form.
-    const username = document.getElementById("username").value;
-    const title = document.getElementById("title").value;
-    const content = document.getElementById("content").value;
-    
-    //This array is for localStorage to send it all together.
-    const formData = [username, title, content];
+    //This array gets the content from the form and is for localStorage to send it all together.
+    const formData = {
+        username: document.getElementById("username").value,
+        title: document.getElementById("title").value,
+        content: document.getElementById("content").value
+    };
     
     //This if is for when one of the textboxes is empty it pops up a message telling you to fill it out.
     if (username === "" || title === "" || content === "") {
