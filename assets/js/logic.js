@@ -8,15 +8,12 @@ const themeToggle = document.getElementById('theme');
 const body = document.body;
 
 themeToggle.addEventListener('click', () => {
-  body.classList.toggle('dark-theme');
-  if (body.classList.contains('dark-theme')) {
-    localStorage.setItem('theme', 'dark');
-  } else {
+  body.classList.toggle('light-theme');
+  if (body.classList.contains('light-theme')) {
     localStorage.setItem('theme', 'light');
+  } else {
+    localStorage.setItem('theme', 'dark');
+    body.classList.add('dark-theme');
   }
+  body.classList.toggle('dark-theme');
 });
-
-const storedTheme = localStorage.getItem('theme');
-if (storedTheme === 'dark') {
-  body.classList.add('dark-theme');
-}
