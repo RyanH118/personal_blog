@@ -3,9 +3,22 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     border-bottom: 3px solid;
     width: 100%;
     margin-bottom: 5px;
+}
+
+.back-Btn {
+    font-size: 30px;
+    border: 1px solid;
+    height: 45px;
+    border-radius: 10px;
+    padding: 0px 15px 0px 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-color: black;
 }
 
 main {
@@ -42,4 +55,9 @@ footer {
 div {
     margin-top: 45px;
     margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
