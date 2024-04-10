@@ -3,6 +3,7 @@ const form = document.getElementById("blogForm");
 // This event listener is waiting for the submit button to be clicked.
 form.addEventListener("submit", function (event) {
     
+    // these 3 const are for the if statement.
     const username = document.getElementById('username').value;
     const title = document.getElementById('title').value;
     const content = document.getElementById('content').value;
@@ -29,7 +30,9 @@ form.addEventListener("submit", function (event) {
         blogPosts.push(blogPost);
         // stringify is making the objects into a string to send to localStorage. 
         localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
-    
+
+        // this makes the form null after hitting submit.
+        form.reset();    
     }
     
 });
