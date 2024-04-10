@@ -1,7 +1,4 @@
 body {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 50% 50%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -17,4 +14,32 @@ h1 {
     color: white;
     margin-left: 5rem;
     margin-top: 5rem;
+}
+
+/* this grid has 2 rows and 3 columns. */
+.grid-container {
+    display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "figure empty aside";
+  gap: 10px;
+}
+
+/* this is the header grid */
+nav {
+    grid-area: header;
+  background-color: #f1c40f;
+  padding: 10px;
+}
+
+/* figure grid */
+figure {
+    grid-area: figure;
+}
+
+/* aside grid */
+aside {
+    grid-area: aside;
 }
