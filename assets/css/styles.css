@@ -12,8 +12,7 @@ h1 {
     place-items: center;
     font-size: 4rem;
     color: white;
-    margin-left: 5rem;
-    margin-top: 5rem;
+    margin: 70px;
 }
 
 /* this grid has 2 rows and 3 columns. */
@@ -31,15 +30,27 @@ h1 {
 nav {
     grid-area: header;
   background-color: #f1c40f;
-  padding: 10px;
+  border-bottom: 5px solid;
+  width: 100%;
+  padding-bottom: 10px;
 }
 
 /* figure grid */
 figure {
     grid-area: figure;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    height: 100%;
+    width: 100%;
+    margin-top: -2px;
 }
 
 /* aside grid */
 aside {
     grid-area: aside;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    height: 100%;
+    width: 100%;
+    margin-top: -2px;
 }
