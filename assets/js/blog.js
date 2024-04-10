@@ -8,7 +8,7 @@ blogPosts.forEach(post => {
     // newPost is creating a new div for each new post.
     const newPost = document.createElement('article');
     newPost.innerHTML = `
-    <h2>${post.title}</h2>
+    <h2>${post.title}<hr></h2>
     <p>${post.content}</p>
     <p>Author: ${post.username}</p>
   `;
