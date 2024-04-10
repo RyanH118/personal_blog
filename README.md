@@ -11,4 +11,10 @@ https://ryanh118.github.io/personal_blog/
 
 ## Usage
 
-![alt text](assets/images/)
+![alt text](assets/images/form_light.png)
+
+![alt text](assets/images/form_dark.png)
+
+![alt text](assets/images/posts_light.png)
+
+![alt text](assets/images/posts_dark.png)
