@@ -10,7 +10,7 @@ blogPosts.forEach(post => {
     newPost.innerHTML = `
     <h2>${post.title}<hr></h2>
     <p>${post.content}</p>
-    <p>Author: ${post.username}</p>
+    <div>Posted by: ${post.username}</div>
   `;
     blogPostList.appendChild(newPost);
 });

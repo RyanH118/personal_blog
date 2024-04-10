@@ -2,10 +2,22 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+header {
+    border-bottom: 3px solid;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+main {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    width: 100%;
+}
+
 article {
     border: 2px solid;
     border-radius: 10px;
-    height: 175px;
+    height: 150px;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -18,4 +30,16 @@ p {
 
 h2 {
     margin-left: 10px;
+}
+
+footer {
+    border-top: 3px solid;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+div {
+    margin-top: 45px;
+    margin-left: 5px;
 }
