@@ -1,13 +1,3 @@
-/* .light-theme {
-    --color-black: #000000;
-    --bg-white: #FFFFFF;
-}
-
-.dark-theme {
-    --color-grey: #ddd;
-    --bg-darkgrey: #333;
-} */
-
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

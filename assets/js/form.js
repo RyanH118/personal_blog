@@ -1,3 +1,4 @@
+// this const helps have an easier time writing code since the document. is condensed into one word.
 const form = document.getElementById("blogForm");
 
 // This event listener is waiting for the submit button to be clicked.
